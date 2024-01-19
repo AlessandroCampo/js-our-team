@@ -36,7 +36,13 @@ body {
 
 .score,
 .role,
-.name {
+.name,
+.pac,
+.sho,
+.pas,
+.dri,
+.def,
+.phy {
     font-weight: bold;
     color: goldenrod;
     position: absolute
@@ -86,4 +92,42 @@ img[src*="INTER"] {
 img[src*="NAPOLI"] {
     width: 13%;
     left: 19%;
+}
+
+.pac,
+.sho,
+.pas {
+    left: 21.5%;
+    font-size: 19px;
+}
+
+.dri,
+.def,
+.phy {
+    left: 58.5%;
+    font-size: 19px;
+}
+
+.dri {
+    bottom: 25%;
+}
+
+.def {
+    bottom: 19%;
+}
+
+.phy {
+    bottom: 13%;
+}
+
+.pac {
+    bottom: 25%;
+}
+
+.sho {
+    bottom: 19%;
+}
+
+.pas {
+    bottom: 13%;
 }

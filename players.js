@@ -1,11 +1,17 @@
 class Player {
-    constructor({ name, team, role, age, nationality, score }) {
+    constructor({ name, team, role, age, nationality, score, pac, sho, pas, dri, def, phy }) {
         this.name = name
         this.team = team
         this.role = role
         this.nationality = nationality
         this.age = age
         this.score = score
+        this.pac = pac
+        this.sho = sho
+        this.pas = pas
+        this.dri = dri
+        this.def = def
+        this.phy = phy
     }
 }
 
@@ -14,7 +20,13 @@ const chiesa = new Player({
     team: "Juventus",
     role: "LM",
     nationality: "Italy",
-    score: 89
+    score: 89,
+    pac: "95 PAC",
+    sho: "90 SHO",
+    pas: "88 PAS",
+    dri: "92 DRI",
+    def: "54 DEF",
+    phy: "77 PHY"
 
 })
 
@@ -23,7 +35,13 @@ const lautaro = new Player({
     team: "INTER",
     role: "ATT",
     nationality: "Argentina",
-    score: 89
+    score: 89,
+    pac: "95 PAC",
+    sho: "90 SHO",
+    pas: "88 PAS",
+    dri: "92 DRI",
+    def: "54 DEF",
+    phy: "77 PHY"
 
 })
 
@@ -32,7 +50,13 @@ const maignan = new Player({
     team: "MILAN",
     role: "GK",
     nationality: "France",
-    score: 87
+    score: 87,
+    pac: "95 PAC",
+    sho: "90 SHO",
+    pas: "88 PAS",
+    dri: "92 DRI",
+    def: "54 DEF",
+    phy: "77 PHY"
 
 })
 
@@ -41,7 +65,13 @@ const giroud = new Player({
     team: "MILAN",
     role: "ATT",
     nationality: "France",
-    score: 84
+    score: 84,
+    pac: "95 PAC",
+    sho: "90 SHO",
+    pas: "88 PAS",
+    dri: "92 DRI",
+    def: "54 DEF",
+    phy: "77 PHY"
 
 })
 
@@ -50,7 +80,13 @@ const theo = new Player({
     team: "MILAN",
     role: "TDS",
     nationality: "France",
-    score: 90
+    score: 90,
+    pac: "95 PAC",
+    sho: "90 SHO",
+    pas: "88 PAS",
+    dri: "92 DRI",
+    def: "54 DEF",
+    phy: "77 PHY"
 })
 
 const di_lorenzo = new Player({
@@ -58,7 +94,13 @@ const di_lorenzo = new Player({
     team: "NAPOLI",
     role: "DEF",
     nationality: "Italy",
-    score: 85
+    score: 85,
+    pac: "95 PAC",
+    sho: "90 SHO",
+    pas: "88 PAS",
+    dri: "92 DRI",
+    def: "54 DEF",
+    phy: "77 PHY"
 })
 
 const oshimen = new Player({
@@ -66,7 +108,13 @@ const oshimen = new Player({
     team: "NAPOLI",
     role: "ATT",
     nationality: "Nigeria",
-    score: 92
+    score: 92,
+    pac: "95 PAC",
+    sho: "90 SHO",
+    pas: "88 PAS",
+    dri: "92 DRI",
+    def: "54 DEF",
+    phy: "77 PHY"
 })
 
 const politano = new Player({
@@ -74,7 +122,13 @@ const politano = new Player({
     team: "NAPOLI",
     role: "LM",
     nationality: "Italy",
-    score: 80
+    score: 80,
+    pac: "95 PAC",
+    sho: "90 SHO",
+    pas: "88 PAS",
+    dri: "92 DRI",
+    def: "54 DEF",
+    phy: "77 PHY"
 })
 
 const rabiot = new Player({
@@ -82,7 +136,13 @@ const rabiot = new Player({
     team: "JUVENTUS",
     role: "CC",
     nationality: "France",
-    score: 84
+    score: 84,
+    pac: "95 PAC",
+    sho: "90 SHO",
+    pas: "88 PAS",
+    dri: "92 DRI",
+    def: "54 DEF",
+    phy: "77 PHY"
 })
 
 const vlahovic = new Player({
@@ -90,7 +150,13 @@ const vlahovic = new Player({
     team: "JUVENTUS",
     role: "ATT",
     nationality: "Serbia",
-    score: 86
+    score: 86,
+    pac: "95 PAC",
+    sho: "90 SHO",
+    pas: "88 PAS",
+    dri: "92 DRI",
+    def: "54 DEF",
+    phy: "77 PHY"
 })
 
 const thuram = new Player({
@@ -98,7 +164,13 @@ const thuram = new Player({
     team: "INTER",
     role: "ATT",
     nationality: "France",
-    score: 83
+    score: 83,
+    pac: "95 PAC",
+    sho: "90 SHO",
+    pas: "88 PAS",
+    dri: "92 DRI",
+    def: "54 DEF",
+    phy: "77 PHY"
 })
 
 const di_marco = new Player({
@@ -106,5 +178,11 @@ const di_marco = new Player({
     team: "INTER",
     role: "DEF",
     nationality: "Italy",
-    score: 83
+    score: 83,
+    pac: "95 PAC",
+    sho: "90 SHO",
+    pas: "88 PAS",
+    dri: "92 DRI",
+    def: "54 DEF",
+    phy: "77 PHY"
 })
