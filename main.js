@@ -7,6 +7,8 @@
 const allPlayers = [chiesa, maignan, lautaro, oshimen, rabiot, vlahovic, di_lorenzo, politano, theo, thuram, giroud, di_marco]
 const containerHTML = document.getElementById("container")
 
+
+
 for (let i = 0; i < allPlayers.length; i++) {
     console.log(allPlayers[i])
     const newCard = document.createElement("div")

@@ -1,3 +1,8 @@
+
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 class Player {
     constructor({ name, team, role, age, nationality, score, pac, sho, pas, dri, def, phy }) {
         this.name = name
@@ -21,13 +26,12 @@ const chiesa = new Player({
     role: "LM",
     nationality: "Italy",
     score: 89,
-    pac: "95 PAC",
-    sho: "90 SHO",
-    pas: "88 PAS",
-    dri: "92 DRI",
-    def: "54 DEF",
-    phy: "77 PHY"
-
+    pac: getRandomInt(75, 100) + " PAC",
+    sho: getRandomInt(75, 100) + " SHO",
+    pas: getRandomInt(75, 100) + " PAS",
+    dri: getRandomInt(75, 100) + " DRI",
+    def: getRandomInt(75, 100) + " DEF",
+    phy: getRandomInt(75, 100) + " PHY"
 })
 
 const lautaro = new Player({
@@ -36,12 +40,12 @@ const lautaro = new Player({
     role: "ATT",
     nationality: "Argentina",
     score: 89,
-    pac: "95 PAC",
-    sho: "90 SHO",
-    pas: "88 PAS",
-    dri: "92 DRI",
-    def: "54 DEF",
-    phy: "77 PHY"
+    pac: getRandomInt(75, 100) + " PAC",
+    sho: getRandomInt(75, 100) + " SHO",
+    pas: getRandomInt(75, 100) + " PAS",
+    dri: getRandomInt(75, 100) + " DRI",
+    def: getRandomInt(75, 100) + " DEF",
+    phy: getRandomInt(75, 100) + " PHY"
 
 })
 
@@ -51,12 +55,12 @@ const maignan = new Player({
     role: "GK",
     nationality: "France",
     score: 87,
-    pac: "95 PAC",
-    sho: "90 SHO",
-    pas: "88 PAS",
-    dri: "92 DRI",
-    def: "54 DEF",
-    phy: "77 PHY"
+    pac: getRandomInt(75, 100) + " PAC",
+    sho: getRandomInt(75, 100) + " SHO",
+    pas: getRandomInt(75, 100) + " PAS",
+    dri: getRandomInt(75, 100) + " DRI",
+    def: getRandomInt(75, 100) + " DEF",
+    phy: getRandomInt(75, 100) + " PHY"
 
 })
 
@@ -66,12 +70,12 @@ const giroud = new Player({
     role: "ATT",
     nationality: "France",
     score: 84,
-    pac: "95 PAC",
-    sho: "90 SHO",
-    pas: "88 PAS",
-    dri: "92 DRI",
-    def: "54 DEF",
-    phy: "77 PHY"
+    pac: getRandomInt(75, 100) + " PAC",
+    sho: getRandomInt(75, 100) + " SHO",
+    pas: getRandomInt(75, 100) + " PAS",
+    dri: getRandomInt(75, 100) + " DRI",
+    def: getRandomInt(75, 100) + " DEF",
+    phy: getRandomInt(75, 100) + " PHY"
 
 })
 
@@ -81,12 +85,12 @@ const theo = new Player({
     role: "TDS",
     nationality: "France",
     score: 90,
-    pac: "95 PAC",
-    sho: "90 SHO",
-    pas: "88 PAS",
-    dri: "92 DRI",
-    def: "54 DEF",
-    phy: "77 PHY"
+    pac: getRandomInt(75, 100) + " PAC",
+    sho: getRandomInt(75, 100) + " SHO",
+    pas: getRandomInt(75, 100) + " PAS",
+    dri: getRandomInt(75, 100) + " DRI",
+    def: getRandomInt(75, 100) + " DEF",
+    phy: getRandomInt(75, 100) + " PHY"
 })
 
 const di_lorenzo = new Player({
@@ -95,12 +99,12 @@ const di_lorenzo = new Player({
     role: "DEF",
     nationality: "Italy",
     score: 85,
-    pac: "95 PAC",
-    sho: "90 SHO",
-    pas: "88 PAS",
-    dri: "92 DRI",
-    def: "54 DEF",
-    phy: "77 PHY"
+    pac: getRandomInt(75, 100) + " PAC",
+    sho: getRandomInt(75, 100) + " SHO",
+    pas: getRandomInt(75, 100) + " PAS",
+    dri: getRandomInt(75, 100) + " DRI",
+    def: getRandomInt(75, 100) + " DEF",
+    phy: getRandomInt(75, 100) + " PHY"
 })
 
 const oshimen = new Player({
@@ -109,12 +113,12 @@ const oshimen = new Player({
     role: "ATT",
     nationality: "Nigeria",
     score: 92,
-    pac: "95 PAC",
-    sho: "90 SHO",
-    pas: "88 PAS",
-    dri: "92 DRI",
-    def: "54 DEF",
-    phy: "77 PHY"
+    pac: getRandomInt(75, 100) + " PAC",
+    sho: getRandomInt(75, 100) + " SHO",
+    pas: getRandomInt(75, 100) + " PAS",
+    dri: getRandomInt(75, 100) + " DRI",
+    def: getRandomInt(75, 100) + " DEF",
+    phy: getRandomInt(75, 100) + " PHY"
 })
 
 const politano = new Player({
@@ -123,12 +127,12 @@ const politano = new Player({
     role: "LM",
     nationality: "Italy",
     score: 80,
-    pac: "95 PAC",
-    sho: "90 SHO",
-    pas: "88 PAS",
-    dri: "92 DRI",
-    def: "54 DEF",
-    phy: "77 PHY"
+    pac: getRandomInt(75, 100) + " PAC",
+    sho: getRandomInt(75, 100) + " SHO",
+    pas: getRandomInt(75, 100) + " PAS",
+    dri: getRandomInt(75, 100) + " DRI",
+    def: getRandomInt(75, 100) + " DEF",
+    phy: getRandomInt(75, 100) + " PHY"
 })
 
 const rabiot = new Player({
@@ -137,12 +141,12 @@ const rabiot = new Player({
     role: "CC",
     nationality: "France",
     score: 84,
-    pac: "95 PAC",
-    sho: "90 SHO",
-    pas: "88 PAS",
-    dri: "92 DRI",
-    def: "54 DEF",
-    phy: "77 PHY"
+    pac: getRandomInt(75, 100) + " PAC",
+    sho: getRandomInt(75, 100) + " SHO",
+    pas: getRandomInt(75, 100) + " PAS",
+    dri: getRandomInt(75, 100) + " DRI",
+    def: getRandomInt(75, 100) + " DEF",
+    phy: getRandomInt(75, 100) + " PHY"
 })
 
 const vlahovic = new Player({
@@ -151,12 +155,12 @@ const vlahovic = new Player({
     role: "ATT",
     nationality: "Serbia",
     score: 86,
-    pac: "95 PAC",
-    sho: "90 SHO",
-    pas: "88 PAS",
-    dri: "92 DRI",
-    def: "54 DEF",
-    phy: "77 PHY"
+    pac: getRandomInt(75, 100) + " PAC",
+    sho: getRandomInt(75, 100) + " SHO",
+    pas: getRandomInt(75, 100) + " PAS",
+    dri: getRandomInt(75, 100) + " DRI",
+    def: getRandomInt(75, 100) + " DEF",
+    phy: getRandomInt(75, 100) + " PHY"
 })
 
 const thuram = new Player({
@@ -165,12 +169,12 @@ const thuram = new Player({
     role: "ATT",
     nationality: "France",
     score: 83,
-    pac: "95 PAC",
-    sho: "90 SHO",
-    pas: "88 PAS",
-    dri: "92 DRI",
-    def: "54 DEF",
-    phy: "77 PHY"
+    pac: getRandomInt(75, 100) + " PAC",
+    sho: getRandomInt(75, 100) + " SHO",
+    pas: getRandomInt(75, 100) + " PAS",
+    dri: getRandomInt(75, 100) + " DRI",
+    def: getRandomInt(75, 100) + " DEF",
+    phy: getRandomInt(75, 100) + " PHY"
 })
 
 const di_marco = new Player({
@@ -179,10 +183,10 @@ const di_marco = new Player({
     role: "DEF",
     nationality: "Italy",
     score: 83,
-    pac: "95 PAC",
-    sho: "90 SHO",
-    pas: "88 PAS",
-    dri: "92 DRI",
-    def: "54 DEF",
-    phy: "77 PHY"
+    pac: getRandomInt(75, 100) + " PAC",
+    sho: getRandomInt(75, 100) + " SHO",
+    pas: getRandomInt(75, 100) + " PAS",
+    dri: getRandomInt(75, 100) + " DRI",
+    def: getRandomInt(75, 100) + " DEF",
+    phy: getRandomInt(75, 100) + " PHY"
 })
