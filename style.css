@@ -4,7 +4,9 @@
     margin: 0;
 }
 
-
+#container {
+    display: flex;
+}
 
 .card {
     background-image: url(img/fifa\ card.png);
@@ -59,6 +61,11 @@
 .team {
     position: absolute;
     left: 20%;
-    width: 12%;
+    width: 10%;
     top: 42%;
+}
+
+img[src*="INTER"] {
+    width: 15%;
+    left: 18%;
 }
