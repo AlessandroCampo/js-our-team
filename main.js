@@ -4,7 +4,7 @@
 // const playerTeams = ["Juventus", "Inter", "Milan"]
 // const playerRoles = ["Attaccante", "Attaccante", "Portiere"]
 // const playerAges = ["28", "31", "27"]
-const allPlayers = [chiesa, maignan, lautaro]
+const allPlayers = [chiesa, maignan, lautaro, oshimen, rabiot, vlahovic, di_lorenzo, politano, theo, thuram, giroud, di_marco]
 const containerHTML = document.getElementById("container")
 
 for (let i = 0; i < allPlayers.length; i++) {
