@@ -1,3 +1,6 @@
+
+
+
 class Player {
     constructor(name, team, role, age) {
         this.name = name
@@ -21,3 +24,4 @@ for (let i = 0; i < playerNames.length; i++) {
 }
 
 console.log(allPlayers)
+
