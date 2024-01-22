@@ -6,6 +6,7 @@
 
 body {
     background-image: url(img/background.jpg);
+    overflow: hidden;
 }
 
 #container {
@@ -21,7 +22,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 450px;
+    height: 510px;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
